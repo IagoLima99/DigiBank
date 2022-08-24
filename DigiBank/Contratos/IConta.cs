@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DigiBank.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,8 @@ namespace DigiBank.Contratos
         bool Sacar(double valor);
         double ConsultaSaldo();
         string GetCodigoDoBanco();
-        string GetNumeroDaAgenncia();
+        string GetNumeroDaAgencia();
         string GetNumeroDaConta();
+        List<Extrato> Extrato();
     }
 }

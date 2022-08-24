@@ -11,10 +11,10 @@ namespace DigiBank.Classes
         public Banco()
         {
             this.NomeDoBanco = "DigiBank";
-            this.CodigoDoBanco = "0127";
+            this.CodigoDoBanco = "027";
         }
 
-        public string NomeDoBanco { get; set; }
+        public string NomeDoBanco { get; private set; }
         public string CodigoDoBanco { get; private set; }
 
 
